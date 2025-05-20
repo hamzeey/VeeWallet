@@ -16,6 +16,7 @@
   --light-green: #F1FEF9;
   --neutral: #FAFAFB;
   --dark-grey: #666F89;
+  --light-grey:#90949E;
 
   --transition: all 400ms ease;
 
@@ -30,19 +31,16 @@ html {
   width: max-content;
   display: inline-block;
   color: white;
-  padding: 0.6rem 0.9rem;
+  padding: 0.5rem 0.8rem;
   cursor: pointer;
   border: 2px solid var(--major-green);
-  border-radius: 1rem;
+  border-radius: 5px;
   background: #10B981;
   transition: var(--transition);
   box-shadow: 2px 2px 10px;
 }
 
-.btn:hover {
-  background: var(--dark-grey);
-  border: 2px solid var(--light-blue);
-}
+
 
 
 

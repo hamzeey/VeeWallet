@@ -1,4 +1,49 @@
 .hero{
-height: 100vh;
+height: 70vh;
    background-color: var(--color-primary);
+      position: relative;
+      display: grid;
+      grid-template-columns: 1fr 1fr ;
+      place-items: center;
+}
+.hero-txt{
+  line-height: 1.5 ;
+}
+.hero-txt h2{
+font-size: 45px;
+font-weight: bold;
+}
+.hero-txt span{
+   color: var(--major-green);
+}
+.inner-form{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   position: relative;
+   place-items: center;
+}
+.trade{
+   margin-top: 20px;
+}
+.inner-form{
+   margin-top: 30px;
+}
+.hero-img img{
+   height: 70%;
+   width: 70%;
+}
+
+.comp{
+   display: block;
+   margin-right: auto;
+   margin-left: auto ;
+}
+.fees{
+   color: var(--light-grey);
+   margin-top: 20px;
+}
+
+.p-text{
+   padding: 10px ;
+   border-radius: 4px;
 }
