@@ -1,7 +1,7 @@
 .numbers{
     height:20vh;
 background-color: var(--light-green);
-
+color: var(--major-green);
 }
 
 .contaiiner{

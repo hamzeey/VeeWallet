@@ -1,3 +1,44 @@
 .listing{
-    color: crimsons;
+    background-color: #FAFAFB   ;
+    height: 60vh;
+}
+
+.popular{
+ padding-top: 40px;
+ padding-left: 100px;
+
+}
+.popular h1{
+    font-weight: bold;
+}
+
+.table-heading{
+    display: flex;
+justify-content: space-between;
+width: 20%;
+align-items: center;
+color: var(--light-grey);
+}
+
+
+.listing-box{
+    padding-top: 25px;
+    padding-left: 100px;
+}
+
+.price-table{
+    padding-top: 20px;
+   
+}
+.table{
+    width: 100%;
+}
+.head{
+        width: 100%;
+} 
+.row{
+    display: flex;
+        justify-content: space-between;
+        width: 100%;
+        color: var(--light-grey);
 }

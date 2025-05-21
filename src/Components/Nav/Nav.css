@@ -1,4 +1,66 @@
-.navel{
+/* .navel{
     color: red;
    
+} */
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: white;
+    border-bottom: 1px solid #eee;
+   
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: var(--major-green);
+    margin-right: 20px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    font-size: 0.95rem;
+}
+
+.nav-links li {
+    cursor: pointer;
+    position: relative;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.signin {
+    color: var(--major-green);
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.get-started {
+    background-color:var(--major-green);
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+.icon {
+    font-size: 1.1rem;
+    cursor: pointer;
 }

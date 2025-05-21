@@ -1,3 +1,78 @@
-.port{
-    color: darkblue;
+/* .portfolio-container{
+    background-color: #FAFAFB;
+        height: 70vh;
+} */
+
+
+.portfolio-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    background-color: #FAFAFB;
+        height: 70vh;
+}
+
+.portfolio-left {
+    max-width: 50%;
+}
+
+.portfolio-left h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.portfolio-left p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.portfolio-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.portfolio-step {
+    display: flex;
+    gap: 15px;
+}
+
+.icon img {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    background: #f2f2f2;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text h4 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.text p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.start-button {
+    margin-top: 30px;
+    padding: 12px 24px;
+    background-color: var(--major-green);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.portfolio-right img {
+    width: 350px;
+    max-width: 100%;
 }
