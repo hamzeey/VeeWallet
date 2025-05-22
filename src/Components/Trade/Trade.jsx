@@ -36,7 +36,7 @@ name:"Windows"
 ]
 function Trade() {
   return (
-    <div className='trade'>
+    <div className='trade inter'>
        <div className='wrapper'>
         <div className='left'>
 <img src={mock} alt="" />

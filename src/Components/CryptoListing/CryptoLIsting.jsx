@@ -65,30 +65,20 @@ const data=[
 function CryptoLIsting() {
   return (
     <div className="listing">
-      <div className="popular">
+      <div className="popular inter">
         <h1>Popular Listing</h1>
       </div>
 
-      <div className="listing-box">
+      <div className="listing-box inter">
         <div className="table-heading">
           <h4>Hot</h4>
           <h4>New Coins</h4>
           <h4>Top Gainers</h4>
         </div>
 
-        <div className="price-table">
-          <table className="table">
-            <thead className="head"> 
-              <tr className="row"> 
-                <th>Name</th>
-                 <th>Last Price</th>
-                  <th>24h Change</th>
-                   <th>chart</th>
-                    <th>.</th>
-              </tr>
-            </thead>
-          </table>
-        </div>
+
+ 
+ 
       </div>
     </div>
   );

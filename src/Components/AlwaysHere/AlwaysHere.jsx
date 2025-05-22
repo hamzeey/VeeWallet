@@ -29,7 +29,7 @@ const data = [
 ];
 function AlwaysHere() {
   return (
-    <div className="always">
+    <div className="always inter">
       <div className="top">
         <h2>We Are Always Here</h2>
       </div>

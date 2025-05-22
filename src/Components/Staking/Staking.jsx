@@ -97,8 +97,8 @@ const data = [
 
 function Staking() {
   return (
-    <div className="staking">
-      <div className="stake-txt">
+    <div className="staking inter">
+      <div className="stake-txt ">
         <h5>STAKING CRYPTO</h5>
         <h2>Earn Crypto Rewards</h2>
         <p>Earn up to 40% in reward yearly by staking your assets</p>

@@ -25,9 +25,13 @@
     font-size: 24px;
 }
 
-.social-icons i {
-    font-size: 18px;
+.social-icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 28px;
     margin-right: 10px;
+    margin-top: 20px;
+    gap: 20px;
     cursor: pointer;
 }
 

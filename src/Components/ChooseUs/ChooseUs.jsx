@@ -26,7 +26,7 @@ const data = [
 ];
 function ChooseUs() {
   return (
-    <div className="choose">
+    <div className="choose inter">
       <div className="header">
         <h1>Your Most Reliable Crypto Exchange</h1>
         <p>Here are some reasons why you should choose VeeWallet</p>

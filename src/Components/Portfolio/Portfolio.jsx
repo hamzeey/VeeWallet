@@ -35,7 +35,7 @@ const data = [
 function Portfolio() {
   return (
     <div className="portfolio-container">
-      <div className="portfolio-left">
+      <div className="portfolio-left inter ">
         <h2>Start Building Your Crypto Portfolio</h2>
         <p>Follow these simple steps to start your first trade.</p>
         <div className="portfolio-steps">
@@ -51,7 +51,7 @@ function Portfolio() {
             </div>
           ))}
         </div>
-        <button className="start-button">Start Your Journey</button>
+        <button className="btn inter">Start Your Journey</button>
       </div>
       <div className="portfolio-right">
         <img src={bro} alt="Crypto dashboard illustration" />

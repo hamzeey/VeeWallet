@@ -1,22 +1,31 @@
 import React from 'react'
 import './Footer.css'
+import { BsFacebook } from "react-icons/bs";
+import { FaInstagramSquare } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { IoLogoWhatsapp } from "react-icons/io";
+import { FaLinkedin } from "react-icons/fa";
+import { BsDiscord } from "react-icons/bs";
+import { FaSquareGithub } from "react-icons/fa6";
+import { RiTelegram2Fill } from "react-icons/ri";
 function Footer() {
   return (
-    <div className='foot'>
+    <div className='foot inter'>
            <footer className="footer">
       <div className="footer-top">
         <div className="footer-brand">
-          <h2>VeeWallet</h2>
+          <h2 className='glory'>VeeWallet</h2>
           <div className="social-icons">
-            <i className="fab fa-facebook"></i>
-            <i className="fab fa-instagram"></i>
-            <i className="fab fa-twitter"></i>
-            <i className="fab fa-youtube"></i>
-            <i className="fab fa-whatsapp"></i>
-            <i className="fab fa-linkedin"></i>
-            <i className="fab fa-discord"></i>
-            <i className="fab fa-github"></i>
-            <i className="fab fa-telegram"></i>
+           <BsFacebook />
+           <FaInstagramSquare />
+           <FaTwitter />
+           <FaYoutube />
+           <IoLogoWhatsapp />
+       <FaLinkedin />
+          <BsDiscord />
+          <FaSquareGithub />
+           <RiTelegram2Fill />
           </div>
         </div>
 

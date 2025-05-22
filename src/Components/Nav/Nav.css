@@ -21,16 +21,17 @@
 
 .logo {
     font-weight: bold;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     color: var(--major-green);
-    margin-right: 20px;
+    margin-right: 50px;
 }
 
 .nav-links {
     display: flex;
     list-style: none;
-    gap: 15px;
+    gap: 25px;
     font-size: 0.95rem;
+    
 }
 
 .nav-links li {
@@ -47,7 +48,7 @@
 .signin {
     color: var(--major-green);
     text-decoration: none;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 .get-started {
@@ -63,4 +64,27 @@
 .icon {
     font-size: 1.1rem;
     cursor: pointer;
+}
+
+
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark-mode .navbar {
+    background-color: #1e1e1e;
+}
+
+body.dark-mode .nav-links li,
+body.dark-mode .signin,
+body.dark-mode .get-started {
+    color: white;
+}
+
+body.dark-mode .get-started {
+    background-color: #333;
+    border: 1px solid #666;
 }

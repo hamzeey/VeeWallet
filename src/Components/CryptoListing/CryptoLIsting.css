@@ -20,25 +20,11 @@ align-items: center;
 color: var(--light-grey);
 }
 
-
 .listing-box{
     padding-top: 25px;
     padding-left: 100px;
 }
 
-.price-table{
-    padding-top: 20px;
-   
-}
-.table{
-    width: 100%;
-}
-.head{
-        width: 100%;
-} 
-.row{
-    display: flex;
-        justify-content: space-between;
-        width: 100%;
-        color: var(--light-grey);
-}
+
+
+

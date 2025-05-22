@@ -1,18 +1,14 @@
-.containerrr {
-  width: 100vw;
-  overflow: hidden;
+
+.glory {
+  font-family: "Glory", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 
-@media screen and (max-width:600px) {
-  .containerrr {
-    width: 100vw;
-    overflow: hidden;
-  }
-}
-
-@media screen and (min-width:601px) and (max-width:1023px) {
-  .containerrr {
-    width: 100vw;
-    overflow: hidden;
-  }
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
 }

@@ -3,7 +3,7 @@ import './Numbers.css'
 function Numbers() {
   return (
     <div className='numbers'>
-       <div className='contaiiner'>
+       <div className='contaiiner inter' >
 <div>
   <h1>$2.05 billion</h1>
   <p>24h Trading volume</p>
