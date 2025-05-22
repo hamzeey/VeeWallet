@@ -1,3 +1,110 @@
 .staking{
     color: black;
+    background-color: rgba(241, 235, 235, 0.468);
+    height: 72vh;
+}
+.stake-txt{
+    padding-top: 20px;
+}
+
+.stake-txt h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stake-txt h2{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--major-green);
+        padding-top: 10px;
+}
+ 
+.stake-txt p{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--light-grey);
+        padding-top: 10px;
+        font-size: smaller;
+}
+
+.main-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+}
+
+.contaiiiner {
+    background-color: var(--white-color);
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 0.7rem;
+    color: black;
+    cursor: pointer;
+    max-width: 400px;
+    border: 1px solid transparent;
+    transition: all 0.4s;
+    place-items: center;
+
+}
+/* .contaiiner:hover {
+    box-shadow: 0 0 25px rgba(136, 51, 51, 0.2);
+} */
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 30%;
+    border-radius: 1rem;
+    margin: 0 auto;
+
+}
+.img-container img {
+    border-radius: 0.5rem;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    overflow: clip;
+   
+}
+
+.text{
+    margin-top: 20px;
+    line-height: 1.5;
+}
+.text h4{
+font-size: smaller;
+text-align: center;
+}
+
+.text span{
+    color: var(--light-grey);
+}
+.text h5 {
+    font-size: smaller;
+    text-align: center;
+    
+}
+
+.text p {
+    color: var(--major-green);
+    text-align: center;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
 }

@@ -1,3 +1,59 @@
 .choose{
-    color: slategray;
+   background-color :var(--neutral) ;
+   height: 60vh;
+}
+
+.header{
+    padding-top: 40px;
+   text-align: center;
+   line-height: 1.5;
+}
+
+.header p{
+    color: var(--light-grey);
+}
+
+.body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   margin: 50px auto;
+      
+}
+
+
+.image-contaiiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.image-contaiiner img{
+    height: 100%;
+        object-fit: cover;
+        width: 100%;
+        overflow: clip;
+}
+
+.teext{
+    text-align: center;
+    width: 50%;
+    margin: 10px auto;
+
+}
+
+.teext h4{
+    text-align: center;
+    font-size: small;
+    font-weight: bold;
+}
+
+.teext p{
+    text-align: center;
+    font-size: smaller;
+    color: var(--light-grey);
 }
