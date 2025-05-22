@@ -6,7 +6,7 @@ function Hero() {
     <div className='hero'>
        <div className='hero-txt'>
 <h2>Buy, Trade and <span>Hodl</span> <br />your Favourite <br />Cryptocurrencies</h2>
-<p className='trade'>Trade Over 1200 Cryptocurrencies Safely, Quickly and Easily</p>
+<p className='buy'>Trade Over 1200 Cryptocurrencies Safely, Quickly and Easily</p>
 <div className='inner-form'> 
 <form action="">
   <div className='field'>

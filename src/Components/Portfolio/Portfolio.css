@@ -1,17 +1,11 @@
-/* .portfolio-container{
-    background-color: #FAFAFB;
-        height: 70vh;
-} */
-
-
 .portfolio-container {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     padding: 40px;
     font-family: Arial, sans-serif;
     background-color: #FAFAFB;
-        height: 70vh;
+        height: 85vh;
 }
 
 .portfolio-left {
@@ -24,7 +18,7 @@
 }
 
 .portfolio-left p {
-    color: #555;
+    color:var(--light-grey);
     margin-bottom: 20px;
 }
 
@@ -40,10 +34,9 @@
 }
 
 .icon img {
-    font-size: 24px;
-    width: 40px;
-    height: 40px;
-    background: #f2f2f2;
+  
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -73,6 +66,7 @@
 }
 
 .portfolio-right img {
-    width: 350px;
+    width: 400px;
     max-width: 100%;
+   
 }

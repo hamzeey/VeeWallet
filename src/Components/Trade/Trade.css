@@ -1,3 +1,48 @@
 .trade{
-    color: yellows;
+    height: 60vh;
+    background-color: var(--white-color);
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left img{
+    width: 450px;
+}
+
+/* .right-txt{
+    display: flex;
+    justify-content: flex-start;
+} */
+
+.right-txt p{
+    margin-top: 10px;
+    color: var(--light-grey);
+    font-size: small;
+}
+
+.right-image{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.containerr{
+    margin-top: 40px;
+}
+
+.txxtt {
+    font-size: smaller;
+    margin-top: 10px;
+}
+
+.icon-cont{
+    display: flex;
+    justify-content: flex-start;
 }
