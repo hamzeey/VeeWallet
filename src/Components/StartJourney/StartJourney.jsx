@@ -2,8 +2,13 @@ import React from 'react'
 import './StartJourney.css'
 function StartJourney() {
   return (
-    <div>
-         <h2 className='start'>start</h2>
+    <div className='start'>
+         <div className='strt-txt'>
+          <h2>Begin Your Crypto Journey Today!</h2>
+         </div>
+         <div className='strt-btn'>
+<button className='btn'>Sign Up Now</button>
+         </div>
     </div>
   )
 }

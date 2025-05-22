@@ -37,7 +37,7 @@ function ChooseUs() {
           return (
             <div className="contaiiiiner" key={id}>
               <div className="image-contaiiner">
-                <img src={image} alt="" />
+                <img src={image} alt={desc} />
               </div>
 
               <div className="teext">

@@ -1,6 +1,7 @@
 .trade{
-    height: 60vh;
+    height: 50vh;
     background-color: var(--white-color);
+    padding-top: 30px;
 }
 
 .wrapper{

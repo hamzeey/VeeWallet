@@ -1,3 +1,58 @@
-.Always{
-    color: cadetblue;
+.always{
+    height: 50vh;
+   
+}
+
+.top{
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.bodyy{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 50px auto;
+}
+
+.imgg-contt{
+    display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        overflow: hidden;
+        width: 25%;
+        margin: 0 auto;
+}
+
+.imgg-contt img{
+    height: 40%;
+        object-fit: cover;
+        width: 80%;
+        overflow: clip;
+}
+
+.writing{
+  
+        width: 60%;
+        margin: 10px auto;
+}
+
+.writing h4{
+text-align: center;
+    font-size: small;
+    font-weight: bold;
+}
+.writing p{
+text-align: center;
+    font-size: smaller;
+    color: var(--light-grey);
+    margin-top: 10px;
+}
+
+.bttnn{
+    text-align: center;
+    margin-top: 10px;
+    color: var(--major-green);
+    font-size: small;
 }

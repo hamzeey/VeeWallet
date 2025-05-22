@@ -1,3 +1,16 @@
 .start {
-    color: brown;
+    background-color: var(--color-primary);
+    height: 20vh;
+    
+}
+.strt-txt{
+   padding-top: 30px;
+   text-align: center;
+}
+
+.strt-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
 }
