@@ -7,7 +7,7 @@ function StartJourney() {
           <h2>Begin Your Crypto Journey Today!</h2>
          </div>
          <div className='strt-btn'>
-<button className='btn'>Sign Up Now</button>
+<button className='btnn'>Sign Up Now</button>
          </div>
     </div>
   )

@@ -15,7 +15,7 @@ function Hero() {
 
 </form>
 <div>
-  <div><button className='btn '>Get Started</button></div>
+  <div><button className='btn'>Get Started</button></div>
 </div>
 </div>
 <p className='fees'>Sign Up Now and Get 0 Fees on Trading</p>

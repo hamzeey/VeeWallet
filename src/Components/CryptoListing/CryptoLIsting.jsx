@@ -11,57 +11,6 @@ import logo2 from '../../assets/L-eth.png'
 import logo5 from '../../assets/L-ltc.png'
 import logo3 from '../../assets/L-sol.png'
 
-const data=[
-  {
-    id:1,
-    logo:logo1,
-    short:'BTC',
-    name:"Bitcoin",
-    price:"$16,834.56",
-    change:"-3.2%",
-    chart:btc
-  },
-   {
-    id:2,
-    logo:logo2,
-    short:'ETH',
-    name:"Etherium",
-    price:"$1267.23",
-    change:"+4.26%",
-    chart:eth
-  },
-   {
-    id:3,
-    logo:logo3,
-    short:'SOL',
-    name:"Solana",
-    price:"$204.67",
-    change:"-2.45%",
-    chart:sol
-  },
-   {
-    id:4,
-    logo:logo4,
-    short:'BNB',
-    name:"Binance Coin",
-    price:"$305.12",
-    change:"+1.56%",
-    chart:bnb
-  },
-   {
-    id:5,
-    logo:logo5,
-    short:'LTC',
-    name:"Litecoin",
-    price:"$769.54",
-    change:"-4.33%",
-    chart:ltc
-  }
-]
-
-
-
-
 function CryptoLIsting() {
   return (
     <div className="listing">
@@ -71,12 +20,73 @@ function CryptoLIsting() {
 
       <div className="listing-box inter">
         <div className="table-heading">
-          <h4>Hot</h4>
+          <h4 className="hot">Hot</h4>
           <h4>New Coins</h4>
           <h4>Top Gainers</h4>
         </div>
+         
+         <table className="main-table">
+<thead className="head">
+  <tr>
+    <th>Name</th>
+     <th>Last price</th>
+      <th>24h Change</th>
+       <th>Chart</th>
+        <th>  </th>
+  </tr>
+</thead>
+<tbody className="table-body">
+  <tr>
+    <td className="table-img"><img src={logo1}  /> <span>BTC</span> <span>Bitcoin</span></td>
+    <td>$16,834.56</td>
+    <td>-3.2%</td>
+     <td className="table-chart"><img src={btc}  /></td>
+      <td><button className="btnn">Trade</button></td>
+  </tr>
 
 
+  <tr>
+     <td className="table-img"><img src={logo2}  /> <span>ETH</span> <span>Ethereum</span></td>
+    <td>$1267.23</td>
+    <td>+4.26%</td>
+     <td className="table-chart"><img src={eth}  /></td>
+      <td><button className="btnn">Trade</button></td>
+  </tr>
+
+
+    <tr>
+       <td className="table-img"><img src={logo3}  /> <span>SOL</span> <span>Solana</span></td>
+    <td>$204.67</td>
+    <td>-2.45%</td>
+     <td className="table-chart"><img src={sol}  /></td>
+      <td><button className="btnn">Trade</button></td>
+    </tr>
+
+
+
+      <tr>
+          <td className="table-img"><img src={logo4}  /> <span>BNB</span> <span>Binance Coin</span></td>
+    <td>$305.12</td>
+    <td>+1.56%</td>
+     <td className="table-chart"><img src={bnb}  /></td>
+      <td><button className="btnn">Trade</button></td>
+      </tr>
+
+
+
+        <tr>
+           <td className="table-img"><img src={logo5}  /> <span>LTC</span> <span>Litecoin</span></td>
+    <td>$769.54</td>
+    <td>-4.33%</td>
+     <td className="table-chart"> <img src={ltc}  /></td>
+      <td><button className="btnn">Trade</button></td>
+        </tr>
+</tbody>
+         </table>
+
+<div className="more">
+  <p>View More &gt;</p>
+</div>
  
  
       </div>

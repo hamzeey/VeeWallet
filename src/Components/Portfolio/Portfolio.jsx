@@ -51,7 +51,7 @@ function Portfolio() {
             </div>
           ))}
         </div>
-        <button className="btn inter">Start Your Journey</button>
+        <button className="btnn inter">Start Your Journey</button>
       </div>
       <div className="portfolio-right">
         <img src={bro} alt="Crypto dashboard illustration" />

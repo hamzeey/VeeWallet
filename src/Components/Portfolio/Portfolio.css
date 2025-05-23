@@ -53,12 +53,16 @@
     color: #666;
 }
 
-.btn{
+.btnn{
     margin-top: 40px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
     font-size: 16px;
+width: max-content;
+    display: inline-block;
+    color: white;
+    padding: 0.5rem 0.8rem;
 }
 
 .portfolio-right img {

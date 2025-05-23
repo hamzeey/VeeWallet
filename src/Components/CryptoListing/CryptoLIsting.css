@@ -1,6 +1,6 @@
 .listing{
     background-color: #FAFAFB   ;
-    height: 60vh;
+    height: 80vh;
 }
 
 .popular{
@@ -24,7 +24,57 @@ color: var(--light-grey);
     padding-top: 25px;
     padding-left: 100px;
 }
+.hot{
+display: inline-block;
+border-bottom: 3px solid var(--major-green);
+padding-bottom: 5px;
+color: black;
+}
 
+.main-table{
+    width: 90%;
+   margin-top: 30px;
+   font-size: small;
+}
+.head{
+ text-align: left;
+color: var(--light-grey);
+}
 
+.table-body{
+    padding-top: 10px;
+}
 
+.more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    color:var(--major-green) ;
+}
 
+.table-img img{
+  width: 3.5%;
+}
+
+.table-chart img{
+    width: 30%;
+}
+
+.table-body span{
+    color: var(--light-grey);
+    padding-left: 3px;
+}
+
+.btnn{
+    width: fit-content;
+        display: inline-block;
+        color: white;
+        padding: 0.5rem 0.8rem;
+        cursor: pointer;
+        border: 2px solid var(--major-green);
+        border-radius: 5px;
+        background: var(--major-green);
+        transition: var(--transition);
+        box-shadow: 2px 2px 10px;
+}
