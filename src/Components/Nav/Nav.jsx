@@ -1,25 +1,25 @@
 import './Nav.css'
 import React  from 'react'
-import { useState, useEffect } from 'react'
+// import { useState, useEffect } from 'react'
 import { BsGlobe } from "react-icons/bs";
 import { MdDarkMode } from "react-icons/md";
 import { MdArrowDropDownCircle } from "react-icons/md";
 
 
 function Nav() {
-   const [darkMode, setDarkMode] = useState(false);
+  //  const [darkMode, setDarkMode] = useState(false);
 
-    useEffect(() => {
-    if (darkMode) {
-      document.body.classList.add('dark-mode');
-    } else {
-      document.body.classList.remove('dark-mode');
-    }
-  }, [darkMode]);
+  //   useEffect(() => {
+  //   if (darkMode) {
+  //     document.body.classList.add('dark-mode');
+  //   } else {
+  //     document.body.classList.remove('dark-mode');
+  //   }
+  // }, [darkMode]);
 
-   const toggleDarkMode = () => {
-    setDarkMode(prev => !prev);
-  };
+  //  const toggleDarkMode = () => {
+  //   setDarkMode(prev => !prev);
+  // };
    return (
     <nav className="navbar">
       <div className="navbar-left">
@@ -37,7 +37,7 @@ function Nav() {
         <a href="/signin" className="signin inter">Sign In</a>
         <button className="get-started inter">Get Started</button>
         <span className="icon"><BsGlobe /></span>
-        <span className="icon" onClick={toggleDarkMode}><MdDarkMode /></span>
+        <span className="icon"><MdDarkMode /></span>
       </div>
     </nav>
   );

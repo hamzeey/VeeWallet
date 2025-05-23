@@ -69,7 +69,7 @@
 
 
 /* Dark mode styles */
-body.dark-mode {
+/* body.dark-mode {
     background-color: #121212;
     color: #ffffff;
 }
@@ -87,4 +87,4 @@ body.dark-mode .get-started {
 body.dark-mode .get-started {
     background-color: #333;
     border: 1px solid #666;
-}
+} */
