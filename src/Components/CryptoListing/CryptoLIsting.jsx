@@ -39,7 +39,7 @@ function CryptoLIsting() {
   <tr>
     <td className="table-img"><img src={logo1}  /> <span>BTC</span> <span>Bitcoin</span></td>
     <td>$16,834.56</td>
-    <td>-3.2%</td>
+    <td className="btc-p">-3.2%</td>
      <td className="table-chart"><img src={btc}  /></td>
       <td><button className="btnn">Trade</button></td>
   </tr>
@@ -48,7 +48,7 @@ function CryptoLIsting() {
   <tr>
      <td className="table-img"><img src={logo2}  /> <span>ETH</span> <span>Ethereum</span></td>
     <td>$1267.23</td>
-    <td>+4.26%</td>
+    <td className="eth-p">+4.26%</td>
      <td className="table-chart"><img src={eth}  /></td>
       <td><button className="btnn">Trade</button></td>
   </tr>
@@ -57,7 +57,7 @@ function CryptoLIsting() {
     <tr>
        <td className="table-img"><img src={logo3}  /> <span>SOL</span> <span>Solana</span></td>
     <td>$204.67</td>
-    <td>-2.45%</td>
+    <td className="sol-p">-2.45%</td>
      <td className="table-chart"><img src={sol}  /></td>
       <td><button className="btnn">Trade</button></td>
     </tr>
@@ -67,7 +67,7 @@ function CryptoLIsting() {
       <tr>
           <td className="table-img"><img src={logo4}  /> <span>BNB</span> <span>Binance Coin</span></td>
     <td>$305.12</td>
-    <td>+1.56%</td>
+    <td className="bnb-p">+1.56%</td>
      <td className="table-chart"><img src={bnb}  /></td>
       <td><button className="btnn">Trade</button></td>
       </tr>
@@ -77,7 +77,7 @@ function CryptoLIsting() {
         <tr>
            <td className="table-img"><img src={logo5}  /> <span>LTC</span> <span>Litecoin</span></td>
     <td>$769.54</td>
-    <td>-4.33%</td>
+    <td className="ltc-p">-4.33%</td>
      <td className="table-chart"> <img src={ltc}  /></td>
       <td><button className="btnn">Trade</button></td>
         </tr>

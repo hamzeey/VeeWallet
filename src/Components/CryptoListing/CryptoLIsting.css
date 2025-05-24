@@ -78,3 +78,19 @@ color: var(--light-grey);
         transition: var(--transition);
         box-shadow: 2px 2px 10px;
 }
+.btc-p{
+color:var(--red);
+}
+
+.eth-p {
+    color:var(--green);
+}
+.sol-p {
+    color: var(--red);
+}
+.bnb-p {
+    color: var(--green);
+}
+.ltc-p {
+    color: var(--red);
+}
